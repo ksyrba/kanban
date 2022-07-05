@@ -19,6 +19,7 @@ class CardController < ApplicationController
   end
 
   def edit
+    @lists = List.all
   end
 
   def update
